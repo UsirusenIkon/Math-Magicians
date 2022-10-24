@@ -2,9 +2,6 @@
 
 
 ## Math Magicians
-  
-## Description 
-   - This project is a simple HTML list of To Do tasks. It is built with html, css, javascript and webpack.
 
 ## <a href="#">Live Demo</a>
 

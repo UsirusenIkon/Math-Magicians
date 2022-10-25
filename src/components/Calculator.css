@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 27rem;
+  margin: 5rem auto;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  gap: 1px;
+}
+
+input {
+  grid-column: span 4;
+  background-color: grey;
+  border: none;
+  font-size: larger;
+}
+
+.calc-buttons {
+  padding: 1rem;
+  border: 1px solid rgba(128, 128, 128, 0.256);
+}
+
+.zero {
+  grid-column: span 2;
+}
+
+.m-sign {
+  background-color: rgba(255, 140, 0, 0.687);
+}

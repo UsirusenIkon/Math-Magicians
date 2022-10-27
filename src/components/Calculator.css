@@ -23,7 +23,9 @@ body {
   background-color: grey;
   border: none;
   font-size: larger;
-  padding-top: 0.6rem;
+  padding: 0.7rem;
+  word-wrap: break-word;
+  min-height: 1rem;
 }
 
 .calc-buttons {

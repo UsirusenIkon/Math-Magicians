@@ -18,11 +18,12 @@ body {
   gap: 1px;
 }
 
-input {
+.number {
   grid-column: span 4;
   background-color: grey;
   border: none;
   font-size: larger;
+  padding-top: 0.6rem;
 }
 
 .calc-buttons {

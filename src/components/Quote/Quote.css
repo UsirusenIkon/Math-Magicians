@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.quote {
+  margin: 5rem 0;
+  max-width: 40rem;
+}
+
+i {
+  display: block;
+  margin: 1rem 0;
+}

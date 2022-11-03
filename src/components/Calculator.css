@@ -1,3 +1,11 @@
+/* stylelint-disable csstree/validator */
+:root {
+  --primary-color: black;
+  --secondary-color: grey;
+  --tetiary-color-1: rgba(255, 140, 0, 0.687);
+  --tetiary-color-2: rgba(128, 128, 128, 0.256);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -6,10 +14,25 @@ body {
   padding: 1rem;
 }
 
+h1 {
+  font-size: clamp(1.1rem, 5vw, 2rem);
+}
+
+h2 {
+  font-size: clamp(1rem, 5vw, 1.5rem);
+}
+
+.calculator-page {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 6rem 0;
+  justify-content: center;
+  gap: 2rem;
+}
+
 .calculator {
   width: 100%;
   max-width: 27rem;
-  margin: 5rem auto;
 }
 
 .calculator-buttons {
@@ -20,7 +43,7 @@ body {
 
 .number {
   grid-column: span 4;
-  background-color: grey;
+  background-color: var(--secondary-color);
   border: none;
   font-size: larger;
   padding: 0.7rem;
@@ -30,7 +53,7 @@ body {
 
 .calc-buttons {
   padding: 1rem;
-  border: 1px solid rgba(128, 128, 128, 0.256);
+  border: 1px solid var(--tetiary-color-2);
 }
 
 .zero {
@@ -38,5 +61,5 @@ body {
 }
 
 .m-sign {
-  background-color: rgba(255, 140, 0, 0.687);
+  background-color: var(--tetiary-color-1);
 }

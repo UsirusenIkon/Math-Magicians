@@ -17,32 +17,35 @@ const Calculator = () => {
   }
 
   return (
-    <div className="calculator">
-      <div className="calculator-buttons">
-        <div className="number">
-          {total}
-          {operation}
-          {next}
+    <div className="calculator-page">
+      <h2>Let's Do Some Math!</h2>
+      <div className="calculator">
+        <div className="calculator-buttons">
+          <div className="number">
+            {total}
+            {operation}
+            {next}
+          </div>
+          <button type="button" className="calc-buttons" onClick={clickHandler}>AC</button>
+          <button type="button" className="calc-buttons" onClick={clickHandler}>+/-</button>
+          <button type="button" className="calc-buttons" onClick={clickHandler}>%</button>
+          <button type="button" className="calc-buttons m-sign" onClick={clickHandler}>÷</button>
+          <button type="button" className="calc-buttons" onClick={clickHandler}>7</button>
+          <button type="button" className="calc-buttons" onClick={clickHandler}>8</button>
+          <button type="button" className="calc-buttons" onClick={clickHandler}>9</button>
+          <button type="button" className="calc-buttons m-sign" onClick={clickHandler}>x</button>
+          <button type="button" className="calc-buttons" onClick={clickHandler}>4</button>
+          <button type="button" className="calc-buttons" onClick={clickHandler}>5</button>
+          <button type="button" className="calc-buttons" onClick={clickHandler}>6</button>
+          <button type="button" className="calc-buttons m-sign" onClick={clickHandler}>-</button>
+          <button type="button" className="calc-buttons" onClick={clickHandler}>1</button>
+          <button type="button" className="calc-buttons" onClick={clickHandler}>2</button>
+          <button type="button" className="calc-buttons" onClick={clickHandler}>3</button>
+          <button type="button" className="calc-buttons m-sign" onClick={clickHandler}>+</button>
+          <button type="button" className="calc-buttons zero" onClick={clickHandler}>0</button>
+          <button type="button" className="calc-buttons" onClick={clickHandler}>.</button>
+          <button type="button" className="calc-buttons m-sign" onClick={clickHandler}>=</button>
         </div>
-        <button type="button" className="calc-buttons" onClick={clickHandler}>AC</button>
-        <button type="button" className="calc-buttons" onClick={clickHandler}>+/-</button>
-        <button type="button" className="calc-buttons" onClick={clickHandler}>%</button>
-        <button type="button" className="calc-buttons m-sign" onClick={clickHandler}>÷</button>
-        <button type="button" className="calc-buttons" onClick={clickHandler}>7</button>
-        <button type="button" className="calc-buttons" onClick={clickHandler}>8</button>
-        <button type="button" className="calc-buttons" onClick={clickHandler}>9</button>
-        <button type="button" className="calc-buttons m-sign" onClick={clickHandler}>x</button>
-        <button type="button" className="calc-buttons" onClick={clickHandler}>4</button>
-        <button type="button" className="calc-buttons" onClick={clickHandler}>5</button>
-        <button type="button" className="calc-buttons" onClick={clickHandler}>6</button>
-        <button type="button" className="calc-buttons m-sign" onClick={clickHandler}>-</button>
-        <button type="button" className="calc-buttons" onClick={clickHandler}>1</button>
-        <button type="button" className="calc-buttons" onClick={clickHandler}>2</button>
-        <button type="button" className="calc-buttons" onClick={clickHandler}>3</button>
-        <button type="button" className="calc-buttons m-sign" onClick={clickHandler}>+</button>
-        <button type="button" className="calc-buttons zero" onClick={clickHandler}>0</button>
-        <button type="button" className="calc-buttons" onClick={clickHandler}>.</button>
-        <button type="button" className="calc-buttons m-sign" onClick={clickHandler}>=</button>
       </div>
     </div>
   );

@@ -1,0 +1,47 @@
+/* stylelint-disable csstree/validator */
+:root {
+  --primary-color: black;
+  --secondary-color: grey;
+  --tetiary-color-1: rgba(255, 140, 0, 0.687);
+  --tetiary-color-2: rgba(128, 128, 128, 0.256);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--tetiary-color-2);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: clamp(0.1rem, 4vw, 1rem);
+}
+
+ul {
+  display: flex;
+  gap: clamp(0.01rem, 4vw, 3rem);
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  width: 100%;
+  background-color: var(--tetiary-color-2);
+}

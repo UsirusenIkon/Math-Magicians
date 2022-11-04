@@ -3,7 +3,7 @@
 
 ## Math Magicians
 
-## <a href="#">Live Demo</a>
+## <a href="https://teal-meringue-3ef377.netlify.app">Live Demo</a>
 
 ## Built With
    - HTML, CSS (Flex Box & Grid)
